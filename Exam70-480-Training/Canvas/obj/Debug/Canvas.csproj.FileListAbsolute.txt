@@ -1,0 +1,5 @@
+C:\Users\smithm\Documents\Visual Studio 2012\Projects\Training\Canvas\Canvas\bin\Canvas.dll
+C:\Users\smithm\Documents\Visual Studio 2012\Projects\Training\Canvas\Canvas\bin\Canvas.pdb
+C:\Users\smithm\Documents\Visual Studio 2012\Projects\Training\Canvas\Canvas\obj\Debug\Canvas.csprojResolveAssemblyReference.cache
+C:\Users\smithm\Documents\Visual Studio 2012\Projects\Training\Canvas\Canvas\obj\Debug\Canvas.dll
+C:\Users\smithm\Documents\Visual Studio 2012\Projects\Training\Canvas\Canvas\obj\Debug\Canvas.pdb

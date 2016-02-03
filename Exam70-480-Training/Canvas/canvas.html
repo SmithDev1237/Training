@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple Canvas</title>
+    <style>
+        #myCanvas{
+            border:1px solid;
+        }
+        code{
+            font-family:Consolas, monospace;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas">No canvas support</canvas>
+    <script>
+        //  get canvas object
+        var canvas=document.getElementById("myCanvas");
+        //  get rendering context
+        var ctx = canvas.getContext("2d");
+
+        canvas.width = 400;
+        canvas.height = 400;
+        ctx.fillRect(5, 5, 145, 145);
+        ctx.fillStyle = "rgba(255, 0, 0, 0.5)";
+        ctx.fillRect(45, 45, 145, 145);
+        ctx.fillStyle = "rgba(0, 0, 255, 0.5)";
+        ctx.fillRect(85, 85, 145, 145);
+    </script>
+    <p><pre><code>
+    &lt;canvas id=&quot;myCanvas&quot;&gt;No canvas support&lt;/canvas&gt;
+    &lt;script&gt;
+        //  get canvas object
+        var canvas=document.getElementById(&quot;myCanvas&quot;);
+        //  get rendering context
+        var ctx = canvas.getContext(&quot;2d&quot;);
+
+        canvas.width = 400;
+        canvas.height = 400;
+        ctx.fillRect(5, 5, 145, 145);
+        ctx.fillStyle = &quot;rgba(255, 0, 0, 0.5)&quot;;
+        ctx.fillRect(45, 45, 145, 145);
+        ctx.fillStyle = &quot;rgba(0, 0, 255, 0.5)&quot;;
+        ctx.fillRect(85, 85, 145, 145);
+    &lt;/script&gt;
+        </code></pre>
+    </p>
+</body>
+</html>
