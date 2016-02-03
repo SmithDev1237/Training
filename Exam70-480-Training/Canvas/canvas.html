@@ -3,7 +3,7 @@
 <head>
     <title>Simple Canvas</title>
     <style>
-        #myCanvas{
+        #myCanvas, #canvas1{
             border:1px solid;
         }
         code{
@@ -45,5 +45,38 @@
     &lt;/script&gt;
         </code></pre>
     </p>
+
+    <canvas id="canvas1">No canvas support</canvas>
+    <script>        
+        var canvas=document.getElementById("canvas1");        
+        var ctx = canvas.getContext("2d");
+
+        canvas.width = 400;
+        canvas.height = 400;
+        ctx.beginPath();
+        ctx.arc(110, 110, 50, 0, 2 * Math.PI);
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.arc(220, 220, 50, 0, 1.5 * Math.PI);
+        ctx.stroke();
+    </script>
+    <p><pre><code>
+    &lt;canvas id=&quot;canvas1&quot;&gt;No canvas support&lt;/canvas&gt;
+    &lt;script&gt;        
+        var canvas=document.getElementById(&quot;canvas1&quot;);        
+        var ctx = canvas.getContext(&quot;2d&quot;);
+
+        canvas.width = 400;
+        canvas.height = 400;
+        ctx.beginPath();
+        ctx.arc(110, 110, 50, 0, 2 * Math.PI);
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.arc(220, 220, 50, 0, 1.5 * Math.PI);
+        ctx.stroke();
+    &lt;/script&gt;
+    </code></pre></p>
 </body>
 </html>
