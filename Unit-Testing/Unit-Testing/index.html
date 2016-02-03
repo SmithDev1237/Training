@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Testing</title>
+	<meta charset="utf-8" />
+    <link href="Lib/QUnit.css" rel="stylesheet" />
+    <script src="Lib/QUnit.js"></script>
+</head>
+<body>
+    <div id="qunit"></div>
+
+    <script src="Scripts/FizzBuzz.js"></script>
+    <script src="Tests/FizzBuzzTests.js"></script>
+    <script>        
+        fizzBuzzTests();
+        
+        for (var i = 1; i <= 100; i++) {
+            document.write(fizzBuzz(i) + "<br/>");
+        }        
+    </script>
+</body>
+</html>
